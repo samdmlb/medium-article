@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@300&family=Raleway:wght@300&display=swap');
+
+body {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-size: 28px;
+  color: rgb(60, 60, 60);
+}
+
+.lien-reactif {
+  font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  background-color: rgb(229, 229, 255);
+  color: rgb(40, 40, 40);
+}
+
+.lien-reactif:hover {
+  background-color: rgb(177, 177, 228);
+}
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  padding: 100px 0;
+  color: white;
+  text-shadow: black 1px 0 10px;;
+}
+
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+}
